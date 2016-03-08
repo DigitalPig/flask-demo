@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet"
+	  href="http://cdn.pydata.org/bokeh/release/bokeh-0.11.1.min.css" type="text/css">
+    <script type="text/javascript"
+	    src="http://cdn.pydata.org/bokeh/release/bokeh-0.11.1.min.js"></script>
+    {{script | safe }}
+</head>
+<body>
+  <h1>Stock Price Display</h1>
+  <div class=page>
+    <h3> {{stock_name}}'s Price</h3>
+    {{div | safe }}
+  </div>
+</body>
+</html>
